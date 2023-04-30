@@ -1,7 +1,68 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>My Personal Website</title>
+	<style>
+		body {
+			background-color: white;
+			color: black;
+			font-family: Georgia, serif;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		.container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			align-self: center;
+			max-width: 1000px;
+			margin: 0 20px;
+		}
+		.text {
+			flex: 1;
+			padding-right: 20px;
+			max-width: 100%;
+			font-family: 'EB Garamond', serif;
+			margin-right: 20px;
+		}
+		.image {
+			flex: 1;
+			max-width: 100%;
+			height: auto;
+			margin-left: 20px;
+		}
+		h1 {
+			font-size: 48px;
+			font-weight: bold;
+			margin-top: 0;
+			margin-bottom: 20px;
+			text-align: left;
+		}
+		p {
+			font-size: 16px;
+			line-height: 1.5;
+			text-align: justify;
+			margin-top: 0;
+			font-family: 'EB Garamond', serif;
+			text-indent: 1em;
+			margin-bottom: 1em;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div class="container">
+		<div class="text">
+			<h1>Monse Guedes Ayala</h1>
+			<p>I'm a Mathematics PhD student at The University of Edinburgh. I completed a Bachelor's degree in Philosophy and Mathematics at The University of Edinburgh. I loved the city and decided to continue my academic journey at the same institution by pursuing a PhD in Optimization and Operational Research. My research is focused on bilevel optimization applied to adversarial machine learning, an exciting and rapidly developing field. Other research interests include polynomial optimization, and theoretical computer science. </p>
+			<p> In addition to my academic pursuits, I work part-time as an Algorithm Designer for the health-tech start-up Bioliberty. This experience has given me the opportunity to apply my theoretical knowledge in a practical setting and contribute to meaningful projects. When I'm not working or studying, I enjoy spending time outdoors. Going for walks, reading, and climbing are some of my favourite activities.  </p>
+		</div>
+		<div class="image">
+			<img src="https://dummyimage.com/400x400/000/fff" alt="placeholder image">
+		</div>
+	</div>
 </body>
 </html>
